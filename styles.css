@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+th {
+  text-align: left;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  padding-top: 25px;
+  font-size: 0.9em;
+}
+a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+td {
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding: 3px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.navbar a {
+  float: left;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.table-div {
+  margin-top: 50px;
+}
+.logo {
+  background-color: black;
+  padding: 5px;
+  border-radius: 6px;
+  width: 200;
+  height: 70;
+  margin-top: 125px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0 1em;
+  background: #000;
+  line-height: 2.7em;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #000;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+a.button {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.main-description {
+  width: 95%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.row {
+  width: 100%;
+}
+.column-left {
+  position: fixed;
+  margin-left: 50px;
+  width: 35%;
+}
+
+.column-right {
+  text-align: left;
+  width: 65%;
+  float: right;
+  padding-left: 75px;
+}
+
+.main-heading {
+  display: none;
+}
+
+/* Responsive Styling */
+
+@media only screen and (max-width: 800px) {
+  .column-left {
+    position: static;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .column-right {
+    width: 100%;
+    padding-left: 50px;
+  }
+  .logo {
+    margin-top: 75px;
+  }
+  .navbar a {
+    margin-left: 150px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .column-right {
+    padding-left: 10px;
+  }
+  .main-description {
+    font-size: 1.5em;
+  }
+  .navbar a {
+    font-size: 1em;
+    margin-left: 50px;
+  }
+}
