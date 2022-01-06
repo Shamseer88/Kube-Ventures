@@ -203,3 +203,18 @@ a.active {
     margin-left: 20px;
   }
 }
+.network-table {
+  margin-bottom: 200px;
+}
+.all-companies-btn-div {
+  margin-bottom: 50px;
+  margin-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.all-companies-btn-div a {
+  text-decoration: none;
+}
+.table-div {
+  margin-bottom: 50px;
+}
