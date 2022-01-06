@@ -127,4 +127,79 @@ a.button {
     font-size: 1em;
     margin-left: 50px;
   }
+  a.all-companies-btn {
+    display: inline-block;
+    margin: 30px auto;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+/* Portfolio Page Styling */
+table.portfolio-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.small-logo {
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: -120px;
+}
+div.navbar-portfolio {
+  position: fixed;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.navbar-portfolio a {
+  text-decoration: none;
+  margin-left: 75px;
+  margin-right: auto;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.portfolio-heading {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 125px;
+  font-size: 3em;
+  font-weight: bold;
+}
+.portfolio-description {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  margin: auto;
+  font-size: 25px;
+}
+a.active {
+  color: #00abeb;
+}
+@media only screen and (max-width: 800px) {
+  .portfolio-description {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .small-logo {
+    margin-left: -85px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .small-logo {
+    display: inline-block;
+  }
+  .navbar-portfolio a {
+    margin-left: 20px;
+  }
 }
