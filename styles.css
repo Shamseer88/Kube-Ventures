@@ -3,21 +3,27 @@
 }
 th {
   text-align: left;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
   margin-top: 20px;
   padding-top: 25px;
   font-size: 0.9em;
 }
 a {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 td {
   font-size: 0.8em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Barlow", sans-serif;
   text-align: left;
-  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+td a {
+  font-size: 14px;
 }
 .navbar {
   overflow: hidden;
@@ -34,7 +40,9 @@ td {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Roboto", sans-serif;
+  text-align: center;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Barlow", sans-serif;
 }
 .table-div {
   margin-top: 50px;
@@ -57,7 +65,8 @@ td {
   font-weight: bold;
   border: 1px solid #000;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Barlow", sans-serif;
   font-size: 14px;
 }
 .button:hover {
@@ -71,9 +80,10 @@ a.button {
 
 .main-description {
   width: 95%;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Barlow", sans-serif;
   font-weight: 500;
-  font-size: 2em;
+  font-size: 2.3em;
 }
 
 .row {
@@ -81,15 +91,15 @@ a.button {
 }
 .column-left {
   position: fixed;
-  margin-left: 50px;
-  width: 35%;
+  margin-left: 25px;
+  width: 40%;
 }
 
 .column-right {
   text-align: left;
-  width: 65%;
+  width: 60%;
   float: right;
-  padding-left: 75px;
+  padding-left: 15px;
 }
 
 .main-heading {
@@ -166,18 +176,18 @@ div.navbar-portfolio {
   vertical-align: middle;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Roboto", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 .portfolio-heading {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Barlow", sans-serif;
   margin-top: 125px;
   font-size: 3em;
   font-weight: bold;
 }
 .portfolio-description {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Barlow", sans-serif;
   width: 50%;
   margin: auto;
   font-size: 25px;
@@ -209,7 +219,7 @@ a.active {
 .all-companies-btn-div {
   margin-bottom: 50px;
   margin-top: 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: bold;
 }
 .all-companies-btn-div a {
