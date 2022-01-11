@@ -195,19 +195,35 @@ div.navbar-portfolio {
 a.active {
   color: #00abeb;
 }
+.table-div {
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 0px;
+}
 @media only screen and (max-width: 800px) {
   .portfolio-description {
     width: 100%;
   }
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .small-logo {
-    margin-left: -85px;
+    margin-left: -475px;
   }
-}
+} */
 @media only screen and (max-width: 600px) {
+  td {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  a.nav-a {
+    margin-left: 130px;
+  }
+  .table-div {
+    margin-left: 0;
+  }
   .small-logo {
     display: inline-block;
+    margin-left: -65px;
   }
   .navbar-portfolio a {
     margin-left: 20px;
@@ -224,7 +240,4 @@ a.active {
 }
 .all-companies-btn-div a {
   text-decoration: none;
-}
-.table-div {
-  margin-bottom: 50px;
 }
