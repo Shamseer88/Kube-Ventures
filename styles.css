@@ -4,9 +4,10 @@
 th {
   text-align: left;
   font-weight: 600;
-  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-top: 20px;
-  padding-top: 25px;
+  padding-top: 45px;
+  padding-bottom: 15px;
   font-size: 0.9em;
 }
 a {
@@ -23,7 +24,7 @@ td {
   font-weight: 500;
 }
 td a {
-  font-size: 14px;
+  font-size: 13px;
 }
 .navbar {
   overflow: hidden;
@@ -91,7 +92,7 @@ a.button {
 }
 .column-left {
   position: fixed;
-  margin-left: 25px;
+  margin-left: 75px;
   width: 40%;
 }
 
@@ -147,16 +148,17 @@ a.button {
 
 /* Portfolio Page Styling */
 table.portfolio-table {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -30px;
 }
 .small-logo {
-  width: 120px;
-  height: 50px;
+  width: 200;
+  height: 70;
   background-color: black;
   padding: 10px;
   border-radius: 10px;
-  margin-left: -120px;
+  margin-left: -100px;
 }
 div.navbar-portfolio {
   position: fixed;
@@ -181,7 +183,7 @@ div.navbar-portfolio {
 .portfolio-heading {
   text-align: center;
   font-family: "Barlow", sans-serif;
-  margin-top: 125px;
+  margin-top: 120px;
   font-size: 3em;
   font-weight: bold;
 }
