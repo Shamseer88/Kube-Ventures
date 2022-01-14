@@ -32,7 +32,7 @@ td a {
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
 }
 .navbar a {
   float: left;
@@ -112,50 +112,6 @@ a.button {
 
 /* Responsive Styling */
 
-@media only screen and (max-width: 1000px) {
-  .portfolio-table-div {
-    marg
-  }
-  .column-left {
-    position: static;
-    width: 100%;
-    text-align: center;
-    margin: auto;
-  }
-  .column-right {
-    width: 100%;
-    padding-left: 50px;
-  }
-  .logo {
-    margin-top: 75px;
-  }
-  .navbar a {
-    margin-left: 150px;
-    padding-left: 30px;
-  }
-  div.navbar {
-    margin-left: -20px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .column-right {
-    padding-left: 10px;
-  }
-  .main-description {
-    font-size: 1.5em;
-  }
-  .navbar a {
-    font-size: 1em;
-    margin-left: 50px;
-  }
-  a.all-companies-btn {
-    display: inline-block;
-    margin: 30px auto;
-    text-decoration: none;
-    font-weight: bold;
-  }
-}
-
 /* Portfolio Page Styling */
 table.portfolio-table {
   margin-left: 100px;
@@ -212,46 +168,11 @@ a.active {
   margin-left: 100px;
   margin-right: 0px;
 }
-.portfolio-table-div {
+/* .portfolio-table-div {
   margin-bottom: 50px;
   margin-left: 100px;
   margin-right: 0px;
-}
-@media only screen and (max-width: 800px) {
-  .portfolio-description {
-    width: 100%;
-    margin: auto;
-  }
-  .table-div {
-    margin-left: -10px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  /* .portfolio-description {
-    width: 100%;
-    margin: auto;
-  } */
-  td {
-    padding: 0;
-    padding-bottom: 10px;
-  }
-  a.nav-a {
-    margin-left: 130px;
-  }
-  .portfolio-table-div {
-    margin-left: -100px;
-  }
-
-  .small-logo {
-    display: inline-block;
-    margin-left: -50px;
-    /* margin: auto; */
-  }
-  .navbar-portfolio a {
-    margin:auto;
-  }
-}
+} */
 
 .network-table {
   margin-bottom: 200px;
@@ -264,4 +185,100 @@ a.active {
 }
 .all-companies-btn-div a {
   text-decoration: none;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 1280px) {
+  .column-left {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+  }
+  .column-right {
+    width: 100%;
+  }
+  a.nav-a {
+    margin-left: 575px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  a.nav-a {
+    margin-left: 425px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  a.nav-a {
+    margin-left: 385px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  a.nav-a {
+    margin-left: 330px;
+  }
+  .table-div {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .portfolio-table-div {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .portfolio-description {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  a.nav-a {
+    margin-left: 300px;
+  }
+  table.portfolio-table {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 550px) {
+  a.nav-a {
+    margin-left: 190px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .logo {
+    margin-bottom: 20px;
+    margin-top: 60px;
+  }
+  .small-logo {
+    margin-left: auto;
+  }
+  .navbar-portfolio a {
+    margin: auto;
+  }
+
+  a.nav-a {
+    margin-left: 175px;
+  }
+  .main-description {
+    font-size: 1.5em;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  td {
+    padding: 0;
+    padding-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  a.nav-a {
+    margin-left: 125px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .small-logo {
+    margin-left: -40px;
+  }
+}
+@media only screen and (max-width: 300px) {
 }
