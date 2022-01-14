@@ -48,6 +48,9 @@ td a {
 .table-div {
   margin-top: 50px;
 }
+.portfolio-table-div {
+  margin-top: 50px;
+}
 .logo {
   background-color: black;
   padding: 5px;
@@ -109,7 +112,7 @@ a.button {
 
 /* Responsive Styling */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .column-left {
     position: static;
     width: 100%;
@@ -202,20 +205,21 @@ a.active {
   margin-left: 100px;
   margin-right: 0px;
 }
+.portfolio-table-div {
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 0px;
+}
 @media only screen and (max-width: 800px) {
   .portfolio-description {
     width: 100%;
     margin: auto;
   }
   .table-div {
-    margin-left: -50px;
+    margin-left: -10px;
   }
 }
-/* @media only screen and (max-width: 600px) {
-  .small-logo {
-    margin-left: -475px;
-  }
-} */
+
 @media only screen and (max-width: 600px) {
   /* .portfolio-description {
     width: 100%;
@@ -228,9 +232,10 @@ a.active {
   a.nav-a {
     margin-left: 130px;
   }
-  .table-div {
+  .portfolio-table-div {
     margin-left: -100px;
   }
+
   .small-logo {
     display: inline-block;
     margin-left: -50px;
