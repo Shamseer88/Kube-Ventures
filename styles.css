@@ -205,6 +205,10 @@ a.active {
 @media only screen and (max-width: 800px) {
   .portfolio-description {
     width: 100%;
+    margin: auto;
+  }
+  .table-div {
+    margin-left: -50px;
   }
 }
 /* @media only screen and (max-width: 600px) {
@@ -213,6 +217,10 @@ a.active {
   }
 } */
 @media only screen and (max-width: 600px) {
+  /* .portfolio-description {
+    width: 100%;
+    margin: auto;
+  } */
   td {
     padding: 0;
     padding-bottom: 10px;
@@ -221,16 +229,18 @@ a.active {
     margin-left: 130px;
   }
   .table-div {
-    margin-left: 0;
+    margin-left: -100px;
   }
   .small-logo {
     display: inline-block;
-    margin-left: -65px;
+    margin-left: -50px;
+    /* margin: auto; */
   }
   .navbar-portfolio a {
     margin-left: 20px;
   }
 }
+
 .network-table {
   margin-bottom: 200px;
 }
