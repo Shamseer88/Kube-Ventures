@@ -113,6 +113,9 @@ a.button {
 /* Responsive Styling */
 
 @media only screen and (max-width: 1000px) {
+  .portfolio-table-div {
+    marg
+  }
   .column-left {
     position: static;
     width: 100%;
@@ -128,6 +131,10 @@ a.button {
   }
   .navbar a {
     margin-left: 150px;
+    padding-left: 30px;
+  }
+  div.navbar {
+    margin-left: -20px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -216,7 +223,7 @@ a.active {
     margin: auto;
   }
   .table-div {
-    margin-left: 0px;
+    margin-left: -10px;
   }
 }
 
@@ -242,7 +249,7 @@ a.active {
     /* margin: auto; */
   }
   .navbar-portfolio a {
-    margin-left: 20px;
+    margin:auto;
   }
 }
 
